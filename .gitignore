@@ -1,0 +1,46 @@
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+
+# Large simulation artifacts and scratch
+*.mp4
+*.mkv
+*.mov
+*.tar
+*.tar.gz
+*.avi
+*.log
+*.tfevents.*
+*.partial
+*.copying
+*.tmp
+
+# Generated datasets, figures and caches (keep only explicit small curated files)
+*.npz
+*.npy
+*.csv
+*.png
+*.jpg
+*.jpeg
+
+# Credentials and local environments
+.env
+.env.*
+*.pem
+*.key
+**/pip-temp/
+**/results/
+**/full_logs/
+**/upstream/
+
+# NVIDIA Isaac Gym distribution must be obtained separately
+**/isaacgym/
+**/isaacgym_dist/
+**/IsaacGym_Preview_4_Package/
+*.whl
+
+# Checkpoints in checkpoints/ are deliberately NOT ignored.

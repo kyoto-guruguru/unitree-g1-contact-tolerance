@@ -1,0 +1,8 @@
+# Original source code extracted verbatim from Colab notebook code cells
+isaac_gym/scripts/g1_contact_tolerance_train.py  <-  G1_6500_Contact_Reward_Tolerance_P0_P1_P2_Training.ipynb  code cell 16 (0-based 15)
+isaac_gym/scripts/g1_contact_tolerance_eval.py  <-  G1_6500_Contact_Reward_Tolerance_P0_P1_P2_Training.ipynb  code cell 33 (0-based 32)
+isaac_gym/scripts/g1_highspeed_limit_eval.py  <-  G1_P0_P1_P2_High_Speed_Fall_Limit.ipynb  code cell 15 (0-based 14)
+isaac_gym/scripts/g1_p012_1p4_video_capture.py  <-  G1_P0_P1_P2_1p4mps_IsaacGym_Straightness_Video2.ipynb  code cell 12 (0-based 11)
+isaac_gym/scripts/g1_p012_1p4_render.py  <-  G1_P0_P1_P2_1p4mps_IsaacGym_Straightness_Video2.ipynb  code cell 16 (0-based 15)
+isaac_gym/scripts/g1_p012_1p9_fall_capture.py  <-  G1_P0_P1_P2_1p9mps_IsaacGym_Fall_Skeleton_rep1.ipynb  code cell 12 (0-based 11)
+isaac_gym/scripts/g1_p012_1p9_fall_render.py  <-  G1_P0_P1_P2_1p9mps_IsaacGym_Fall_Skeleton_rep1.ipynb  code cell 16 (0-based 15)

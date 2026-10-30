@@ -1,0 +1,16 @@
+diff --git a/deploy/deploy_mujoco/deploy_mujoco.py b/deploy/deploy_mujoco/deploy_mujoco.py
+index 94bfb41..97e0ba7 100644
+--- a/deploy/deploy_mujoco/deploy_mujoco.py
++++ b/deploy/deploy_mujoco/deploy_mujoco.py
+@@ -79,2 +79,4 @@ if __name__ == "__main__":
+     with mujoco.viewer.launch_passive(m, d) as viewer:
++        viewer.cam.distance = 10.0
++        viewer.cam.lookat[:] = [0.0, 0.0, 0.7]
+         # Close the viewer automatically after simulation_duration wall-seconds.
+@@ -126,2 +128,6 @@ if __name__ == "__main__":
+             # Pick up changes to the physics state, apply perturbations, update options from GUI.
++            # Follow the robot horizontally while keeping a stable viewing height.
++            viewer.cam.lookat[0] = d.qpos[0]
++            viewer.cam.lookat[1] = d.qpos[1]
++            viewer.cam.lookat[2] = 0.7
+             viewer.sync()

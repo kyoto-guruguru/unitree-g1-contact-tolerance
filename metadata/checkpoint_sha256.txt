@@ -1,0 +1,5 @@
+# SHA-256 of model files copied directly from the user’s Google Drive; 2026-10-30
+f64b44341d77b35a4afe84a0793e3dd73e38e76f74ad669024b77141919d8e11  checkpoints/baseline6500/model_6500.pt  # 777570 bytes; checkpoint iter=1000
+f019840dbd66b3691b89253061ef4e018e3827984f9eec070e2574a9d4ce19f1  checkpoints/P0/model_6700.pt  # 777570 bytes; checkpoint iter=6700
+d8228523f432edd9f9f6d9aa9580be390f7b6669c33c0836c429bdafe524907e  checkpoints/P1/model_6700.pt  # 777570 bytes; checkpoint iter=6700
+be3bcd858dd9a17a6269a3d7915016cb823f2415a40dd8870e77323007cae275  checkpoints/P2/model_6700.pt  # 777570 bytes; checkpoint iter=6700
